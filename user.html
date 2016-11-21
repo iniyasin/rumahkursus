@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/user.css"> <!-- Resource style -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.eot">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Responsive Sidebar Navigation | CodyHouse</title>
+</head>
+<body>
+	<!--Ini Bagian Navbar-->
+ <nav class = "navbar navbar-default navbar-fixed-top" role = "navigation">
+ <div class="container">
+   <div class = "navbar-header-other">
+      <a class = "navbar-brand" href = "#">RUMAHKURSUS</a>
+   </div>
+      <!--Right Align-->
+      <ul class = "nav navbar-nav navbar-right">
+         <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+            <img class="img-thumbnail" src="pic/profile.png" width="30px" height="30px">&nbsp;
+               Profile 
+               <b class = "caret"></b>
+            </a>
+            
+            <ul class = "dropdown-menu">
+               <li><a href = "#"><i class="fa fa-pencil fa-fw"></i>&nbsp;Edit Profile</a></li>
+               <li><a href = "#"><i class="fa fa-university fa-fw"></i>&nbsp;Kelas</a></li>
+               <li><a href = "#"><i class="fa fa-graduation-cap fa-fw"></i>&nbsp;Hasil</a></li>
+               <li><a href = "#"><i class="fa fa-calendar fa-fw"></i>&nbsp;Jadwal</a></li>
+               <li class = "divider"></li>
+               <li><a href = "#"><i class="fa fa-cog fa-fw"></i>&nbsp;Pengaturan Akun</a></li>
+               <li><a href = "#"><i class="fa fa-key fa-fw"></i>&nbsp;Ubah Password</a></li>
+               <li class = "divider"></li>
+               <li><a href = "#"><i class="fa fa-sign-out fa-fw"></i>&nbsp;Keluar</a></li>
+            </ul>
+            
+         </li>
+      </ul>
+      <!--Bagian Pesan-->
+      <ul class = "nav navbar-nav navbar-right">
+         <li class = "dropdown-pesan">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+            <i class="fa fa-envelope fa-lg" width="30px" height="30px"></i>
+              Pesan <span class="badge">12</span>  
+            </a>
+            
+            <ul class = "dropdown-menu">
+               <li><a href = "#"><i class="fa fa-pencil-square-o fa-fw"></i>&nbsp;Tulis Pesan</a></li>
+               <li><a href = "#"><i class="fa fa-inbox fa-fw"></i>&nbsp;Pesan Masuk <span class="badge">3</span> </a></li>
+               <li><a href = "#"><i class="fa fa-comments-o fa-fw"></i>&nbsp;Chat <span class="badge">4</span> </a></li>
+               <li><a href = "#"><i class="fa fa-bullhorn fa-fw"></i>&nbsp;Broadcast <span class="badge">5</span> </a></li>
+            </ul>
+            
+         </li>
+      </ul>
+      </div>
+</nav>
+ <!--Bagian Navbar Selesai-->
+	<main class="cd-main-content">
+		<nav class="cd-side-nav">
+			<ul>
+				<li class="cd-label">Account</li>
+				<li class="has-children overview">
+					<a href="#0">Overview</a>
+					
+					<ul>
+						<li><a href="#0">All Data</a></li>
+						<li><a href="#0">Category 1</a></li>
+						<li><a href="#0">Category 2</a></li>
+					</ul>
+				</li>
+				<li class="has-children notifications active">
+					<a href="#0">Notifications<span class="count">3</span></a>
+					
+					<ul>
+						<li><a href="#0">All Notifications</a></li>
+						<li><a href="#0">Friends</a></li>
+						<li><a href="#0">Other</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children comments">
+					<a href="#0">Comments</a>
+					
+					<ul>
+						<li><a href="#0">All Comments</a></li>
+						<li><a href="#0">Edit Comment</a></li>
+						<li><a href="#0">Delete Comment</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="cd-label">Secondary</li>
+				<li class="has-children bookmarks">
+					<a href="#0">Bookmarks</a>
+					
+					<ul>
+						<li><a href="#0">All Bookmarks</a></li>
+						<li><a href="#0">Edit Bookmark</a></li>
+						<li><a href="#0">Import Bookmark</a></li>
+					</ul>
+				</li>
+				<li class="has-children images">
+					<a href="#0">Images</a>
+					
+					<ul>
+						<li><a href="#0">All Images</a></li>
+						<li><a href="#0">Edit Image</a></li>
+					</ul>
+				</li>
+
+				<li class="has-children users">
+					<a href="#0">Users</a>
+					
+					<ul>
+						<li><a href="#0">All Users</a></li>
+						<li><a href="#0">Edit User</a></li>
+						<li><a href="#0">Add User</a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li class="cd-label">Action</li>
+				<li class="action-btn"><a href="#0">+ Button</a></li>
+			</ul>
+		</nav>
+
+		<div class="content-wrapper">
+			<h1>Responsive Sidebar Navigation</h1>
+		</div> <!-- .content-wrapper -->
+	</main> <!-- .cd-main-content -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.menu-aim.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
