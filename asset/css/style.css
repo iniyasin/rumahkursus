@@ -1,0 +1,757 @@
+h4, h5, h6,
+h1, h2, h3 {margin-top: 0;}
+ul, ol {margin: 0;}
+p {margin: 0;}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400px;
+  text-align: center; 
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  text-align: center; 
+  }
+}
+h1,h2,h4 {
+  padding-top: 20px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400px;
+  text-align: center;
+  }
+h3 {
+    padding: 10px;
+}
+body {
+  background-color: #9fbfdf;
+}
+a{
+  text-decoration: none;
+}
+/*--Navbar--*/
+.body-back{
+  background-color: #FFFAFA;
+}
+.navbar-collapse {
+  background-color: #F5F5F5;
+  min-height: 71px;
+  padding-top: 5px;
+  margin-bottom: -1px;
+  text-decoration: none;
+  z-index: -9999;
+}
+
+.logo {
+    border-right: 1px solid;
+    float: left;
+    padding: 1em 0em 0.7em 0em;
+    width: 20%;
+}
+.logo a{
+    color: black;
+    font-size:1.8em;
+    font-family: 'Bad Script', cursive;
+    text-decoration: none;
+}
+.logo a:hover {
+  text-decoration: none;
+  text-shadow: 2px 0px 3px black;
+}
+.navbar-header-other {
+    float: left;
+    font-family: 'Bad Script', cursive;
+    padding: 7px 0px 0px 0px;
+}
+.navbar-header-other a{
+    color: black;
+    font-size:18px;
+    font-family: 'Bad Script', cursive;
+    text-decoration: none;
+}
+.navbar-header-other a:hover {
+  text-decoration: none;
+  text-shadow: 2px 0px 3px black;
+}
+
+.navigation {
+  float: right;
+  width: 45%;
+  padding: 0.822em;
+}
+ul.navig {
+  padding-left: 7em;
+  padding-top: 0.3em;
+}
+ul.navig li {
+  display: inline-block;
+  margin: 0 10px;
+}
+ul.navig li a{
+	font-size:1.1em;
+	text-decoration:none;
+	text-transform:uppercase;
+  font-family: 'Poppins', sans-serif;
+	color:black;
+}
+ul.navig li a:hover{
+	color:#006600;                                                                                          
+}
+.navbar-right{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+}
+.search-bar{
+	width:25%;
+	float:right;
+  padding: 0.7em;
+  border-left: 1px solid;
+}
+.search-bar input[type="submit"]{
+	border:0;
+  background: url(../pic/serch.png)no-repeat 2px;
+	width:10%;
+	float:left;
+	margin-right:2%;
+	outline:none;
+	margin-top:0.2em;
+}
+.fa-search{
+  padding: 7px 30px 0px 0px;
+}
+.text{
+	border:1px solid;
+	width:80%;
+	float:left;
+}
+.text input[type="text"]{
+	border:0;
+	background:none;
+	outline:none;
+}
+/*Navbar End*/
+
+/*Header Start*/
+.jumbotron{
+  background-image: url(../pic/banner4.jpg);
+  background-size: cover;
+  height: 500px;
+  width: auto; 
+}
+.cap-head h3{
+  color: white;
+  margin: 10% 0px 0px 0px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 72px;
+}
+.cap-head p{
+  color: white;
+  font-family: 'Poppins',sans-serif;
+  padding: 0px 0px 0px 1%;
+  text-align: left;
+}
+/*Header End*/
+
+/*Dropdown*/
+
+li.dropdown {
+    display: inline-block;
+    z-index: 9999;
+}
+li.dropdown-pesan {
+  padding: 5px 0px 0px 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 9999;
+}
+
+.dropdown-content a {
+    display: block;
+    font-style: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.login {
+margin-bottom:5px;
+}
+
+.dropdown-menu {
+  list-style: none;
+  width: 300px !important;
+}
+
+/*PopUp*/
+.custom {
+  color: #555;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.custom div{
+  margin: 5px;
+}
+.custom p {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding-top: 5px;
+  text-align: center;
+}
+/*PopUpEnd*/
+
+/*PopUp Register*/
+.kursus , .murid {
+  text-align: left;
+  align-content: center;
+  font-family: 'Poppins',sans-serif;
+  font-size: 14px;
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  -webkit-transition: background 0.3s ease;
+  -moz-transition: background 0.3s ease;
+  -ms-transition: background 0.3s ease;
+  -o-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.kursus {
+  background: rgba(71, 186, 255, 0.8);
+}
+.kursus:hover {
+  background: rgba(71, 186, 255, 1);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+.murid {
+  background: rgba(71, 186, 255, 0.8);
+}
+.murid:hover {
+  background: rgba(71, 186, 255, 1);
+  text-decoration: none;
+  text-decoration-line: none;
+}
+/*PopUp Register End*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+.carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/*--Pengenalan--*/
+.boxA,
+.boxB,
+.boxC
+  { background-color: white;
+    border-radius: 8px;
+    width: 320px;
+		float: left;
+    margin-left: 40px;
+    margin-bottom: 30px;
+  }
+
+  .box
+{
+  padding: 3em 2em 6px 2em;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.box p {
+  margin-top: 10px;
+}
+/*--Pengenalan End--*/
+
+/*--Siapa Yang Mengajari--*/
+.fadeIn{
+  position:relative;
+  -webkit-animation:animatetop 20s;
+  animation:animatetop 20s;
+}
+@-webkit-keyframes animatetop{
+   0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+    transform: translateX(-500px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes animatetop{
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-500px);
+    -ms-transform: translateX(-500px);
+    transform: translateX(-500px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.fadeIn p{
+  font-size: 16px;
+  text-align: left;
+}
+/*--Siapa Yang Mengajari End--*/
+
+/*--Tempat Kursus--*/
+.list {
+  background-color: #FFFFF0;
+  border: 1px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding-top: 4px;
+  text-align: right;
+  width: 1150px;
+}
+
+.list a {
+  font-size: 13px;
+  color: #003300;
+  padding-right: 30px;
+  text-decoration-line: none;
+}
+.list a:hover {
+  color: #006600;
+  text-decoration: none;
+  text-decoration-line: none;
+}
+#owl-slide .item{
+  margin: 3px;
+  width: auto;
+}
+#owl-slide .item img{
+  display: block;
+  width: 350px;
+  height: 150px;
+  padding: 5% 0px 5% 7%;
+}
+#owl-slide .item:hover{
+  height: auto;
+  box-shadow: 1px 1px 10px 0.3px grey;
+}
+
+.cat-item:hover div.cap-item{
+  display: block;
+  height: auto;
+  margin: -4px 0px 0px 3px;
+  padding: 10px;
+}
+.cap-item{
+  display: none;
+  height: 370px;
+  width: 98.5%;
+}
+.cap-item h5{
+  color: grey;
+  margin: -10px 0px 0px 0px;
+  text-decoration: none;
+}
+/*--Tempat Kursus End--*/
+
+/*--Footer--*/
+.panel-body{
+  background-color: #C0C0C0;
+}
+.panel-footer .fa-heart{
+  color: red;
+}
+
+.col-sm-4{
+  padding: 30px 0px 30px 0px;
+}
+.col-sm-4 a{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+.col-sm-4 a:hover{
+    text-decoration: none;
+    transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+    transition: 0.5s all ease;
+  -webkit-transition: 0.5s all ease;
+  -moz-transition: 0.5s all ease;
+  -o-transition: 0.5s all ease;
+  -ms-transition: 0.5s all ease;
+}
+.col-sm-4 li{
+    list-style: none;
+    text-decoration: none;
+}
+.col-sm-4 li:hover{
+    text-decoration: none;
+}
+.col-sm-4 p{
+    text-align: left;
+}
+/*--Footer End--*/
+
+/*--Register--*/
+.body-guru {
+    background-image: url(../pic/edu.JPG);
+    background-size: cover;
+}
+.body-murid{
+    background-image: url(../pic/study.jpg);
+    background-size: cover;
+}
+.caption-top h1{
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+.caption-top p{
+    color: white;
+    font-family: 'Poppins', sans-serif; 
+}
+.register {
+  background-color: grey;
+  background: rgba(0,0,0,0.6);
+  border-radius: 5px;
+  float: left;
+  padding-right: 25px;
+  width: 350px;
+}
+.regis h3{
+  color: white;
+  text-align: center;
+}
+.regis label{
+  color: green;
+}
+.register .regis .input-group{
+  padding: 2px;
+}
+.register-api{
+  background-color: grey;
+  background: rgba(0,0,0,0.6);
+  border-radius: 5px;
+  float: right;
+  width: 300px;
+}
+.register h3{
+  text-align: center;
+}
+.register-api .regis{
+  padding: 50px;
+}
+.regis .api-button img{
+  height: 45px;
+  padding: 2px;
+  width: 200px;
+}
+.register li{
+  color: grey;
+  border: 1px solid;
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+  width: 300px;
+  list-style-type: none;
+}
+.register .pilih {
+  margin-top: 10px;
+  list-style-type: none;
+  border: none;
+  color: black;
+}
+.register .tao {
+  margin-top: 10px;
+  list-style-type: none;
+  border: none;
+  color: black
+}
+.register .button {
+  border: none;
+  list-style-type: none;
+  margin-top: 10px;
+}
+.register .glyphicon-education {
+    align-items: center;
+    display: flex;
+}
+/*--Register End--*/
+
+/*--Akun Murid--*/
+.navig .member {
+  float: right;
+}
+/*--Akun Murid End--*/
+
+/*--Profile--*/
+.kiri {
+  line-height:30px;
+    background-color:#eeeeee;
+    height:auto;
+    width:20%;
+    float:left;
+    padding-top:100px; 
+}
+.kiri .profile {
+  padding: 1em;
+}
+.profile .foto {
+  padding-left: 3.5em;
+}
+.profile .img-circle {
+  width: 140px;
+  height: 140px;
+}
+.profile h4 {
+  text-align: center;
+}
+form .stars {
+  background: url("../pic/stars.png") repeat-x 0 0;
+  width: 150px;
+  margin: 0 auto;
+}
+
+form .stars input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+form .stars input[type="radio"].star-5:checked ~ span {
+  width: 100%;
+}
+form .stars input[type="radio"].star-4:checked ~ span {
+  width: 80%;
+}
+form .stars input[type="radio"].star-3:checked ~ span {
+  width: 60%;
+}
+form .stars input[type="radio"].star-2:checked ~ span {
+  width: 40%;
+}
+form .stars input[type="radio"].star-1:checked ~ span {
+  width: 20%;
+}
+form .stars label {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0!important;
+  padding: 0!important;
+  text-indent: -999em;
+  float: left;
+  position: relative;
+  z-index: 10;
+  background: transparent!important;
+  cursor: pointer;
+}
+form .stars label:hover ~ span {
+  background-position: 0 -30px;
+}
+form .stars label.star-5:hover ~ span {
+  width: 100% !important;
+}
+form .stars label.star-4:hover ~ span {
+  width: 80% !important;
+}
+form .stars label.star-3:hover ~ span {
+  width: 60% !important;
+}
+form .stars label.star-2:hover ~ span {
+  width: 40% !important;
+}
+form .stars label.star-1:hover ~ span {
+  width: 20% !important;
+}
+form .stars span {
+  display: block;
+  width: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 30px;
+  background: url("../pic/stars.png") repeat-x 0 -60px;
+  -webkit-transition: -webkit-width 0.5s;
+  -moz-transition: -moz-width 0.5s;
+  -ms-transition: -ms-width 0.5s;
+  -o-transition: -o-width 0.5s;
+  transition: width 0.5s;
+}
+
+.profile .btn-group {
+  padding-top: 1em;
+  padding-left: 4.5em;
+}
+.profile .glyphicon-cog {
+  height: auto;
+}
+/*--Profile End--*/
+
+/*Kelas*/
+.ikut{
+  width: 950px;
+  height: 517px;
+  float: left;
+}
+
+.kelas {
+  width: 900px;
+}
+.kelas .img-rounded{
+  width: 200px;
+  height: 200px;
+}
+.kelas .mrd{
+  margin-left: 200px;
+}
+/*Kelas End*/
+
+/*Category Start*/
+.caption {
+  margin: 100px 0px 50px 0px;
+}
+.caption h3 {
+  font-family: 'Poppins',sans-serif;
+  text-align: center;
+}
+
+.insert{ 
+  margin: 0px 0px 5% 38%;
+}
+.insert input{
+  background-color: #9fbfdf;
+}
+input:focus{
+  outline: none;
+}
+input{
+  padding: 5px;
+  width: 37%;
+}
+input[type=text]{
+  border: 0px;
+  cursor: text;
+}
+.underline{
+  background-color: #ebebeb;
+  transition: color 1s,background 1s,border 1s,text-shadow 1s;
+  z-index: 0;
+  height: 5px;
+  margin-top: -4px;
+  width: 40%;
+}
+input:focus ~ .underline{
+  background-color: red;
+}
+
+.category-grid {
+  background-color: aqua;
+  margin: 10px;
+  padding: 20px;
+}
+.category-grid p {
+  font-family: 'Poppins',sans-serif;
+  font-size: 18px;
+  text-decoration-line: none;
+}
+.category-grid:hover div.cap-category{
+  display: block;
+  background-color: rgba(242, 242, 242, 0.8);
+}
+.category-grid:hover div.cap-category a{
+  text-decoration: none;
+}
+.cap-category{
+  bottom: 10%;
+  cursor: pointer;
+  display: none;
+  height: 80%;
+  left: 25px;
+  padding: 20px;
+  position: absolute;
+  width: 83%;
+}
+/*Category End*/
+
+/*Tab Bantuan Start*/
+#tabs{
+  height: 100%;
+  padding: 5.5% 0px 0px 0px;
+  width: 100%;
+}
+.ui-tabs-vertical {
+ width: 60em; 
+}
+.ui-tabs-vertical .ui-tabs-nav { 
+  padding: .5em .1em .2em .2em; 
+  float: left; 
+  width: 10em; 
+}
+.ui-tabs-vertical .ui-tabs-nav li { 
+  clear: left; 
+  width: 100%; 
+  border-bottom-width: 1px !important; 
+  border-right-width: 0 !important; 
+  margin: 0 -1px .2em 0; 
+}
+.ui-tabs-vertical .ui-tabs-nav li a { 
+  display:block; 
+}
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+  padding-bottom: 0; 
+  padding-right: .1em; 
+  border-right-width: 1px; 
+}
+.ui-tabs-vertical .ui-tabs-panel { 
+  padding: 1em; 
+  float: right; 
+  width: 40em;
+}
+/*Tab Bantuan End*/
+
+
