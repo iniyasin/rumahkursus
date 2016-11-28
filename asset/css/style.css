@@ -23,132 +23,80 @@ h3 {
     padding: 10px;
 }
 body {
-  background-color: #9fbfdf;
+  padding:50px;
 }
 a{
   text-decoration: none;
 }
 /*--Navbar--*/
-.body-back{
-  background-color: #FFFAFA;
+.back {
+	background-color: #9999ff;
 }
-.navbar-collapse {
-  background-color: #F5F5F5;
-  min-height: 71px;
-  padding-top: 5px;
-  margin-bottom: -1px;
-  text-decoration: none;
-  z-index: -9999;
+.navbar-fixed-top{
+	background-color: #00284d;
+}
+.navbar-collapse a{ 
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
 }
 
-.logo {
-    border-right: 1px solid;
-    float: left;
-    padding: 1em 0em 0.7em 0em;
-    width: 20%;
-}
-.logo a{
-    color: black;
-    font-size:1.8em;
-    font-family: 'Bad Script', cursive;
-    text-decoration: none;
-}
-.logo a:hover {
-  text-decoration: none;
-  text-shadow: 2px 0px 3px black;
-}
-.navbar-header-other {
-    float: left;
-    font-family: 'Bad Script', cursive;
-    padding: 7px 0px 0px 0px;
-}
-.navbar-header-other a{
-    color: black;
-    font-size:18px;
-    font-family: 'Bad Script', cursive;
-    text-decoration: none;
-}
-.navbar-header-other a:hover {
-  text-decoration: none;
-  text-shadow: 2px 0px 3px black;
-}
-
-.navigation {
-  float: right;
-  width: 45%;
-  padding: 0.822em;
-}
-ul.navig {
-  padding-left: 7em;
-  padding-top: 0.3em;
-}
-ul.navig li {
-  display: inline-block;
-  margin: 0 10px;
-}
-ul.navig li a{
-	font-size:1.1em;
-	text-decoration:none;
-	text-transform:uppercase;
-  font-family: 'Poppins', sans-serif;
-	color:black;
-}
-ul.navig li a:hover{
-	color:#006600;                                                                                          
-}
-.navbar-right{
-  font-family: 'Poppins',sans-serif;
-  font-size: 15px;
-}
-.search-bar{
-	width:25%;
-	float:right;
-  padding: 0.7em;
-  border-left: 1px solid;
-}
-.search-bar input[type="submit"]{
-	border:0;
-  background: url(../pic/serch.png)no-repeat 2px;
-	width:10%;
-	float:left;
-	margin-right:2%;
-	outline:none;
-	margin-top:0.2em;
-}
-.fa-search{
-  padding: 7px 30px 0px 0px;
-}
-.text{
-	border:1px solid;
-	width:80%;
-	float:left;
-}
-.text input[type="text"]{
-	border:0;
-	background:none;
-	outline:none;
+.col-md-5 {
+	margin-left: 15px;
+	padding-top: 8px;
 }
 /*Navbar End*/
 
 /*Header Start*/
-.jumbotron{
-  background-image: url(../pic/banner4.jpg);
-  background-size: cover;
-  height: 500px;
-  width: auto; 
-}
-.cap-head h3{
-  color: white;
-  margin: 10% 0px 0px 0px;
-  font-family: 'Poppins',sans-serif;
-  font-size: 72px;
-}
-.cap-head p{
-  color: white;
-  font-family: 'Poppins',sans-serif;
-  padding: 0px 0px 0px 1%;
-  text-align: left;
-}
 /*Header End*/
 
 /*Dropdown*/
@@ -156,9 +104,6 @@ ul.navig li a:hover{
 li.dropdown {
     display: inline-block;
     z-index: 9999;
-}
-li.dropdown-pesan {
-  padding: 5px 0px 0px 0px;
 }
 
 .dropdown-content {
@@ -186,66 +131,10 @@ li.dropdown-pesan {
     display: block;
 }
 
-.login {
-margin-bottom:5px;
-}
-
 .dropdown-menu {
   list-style: none;
   width: 300px !important;
 }
-
-/*PopUp*/
-.custom {
-  color: #555;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-.custom div{
-  margin: 5px;
-}
-.custom p {
-  color: black;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  padding-top: 5px;
-  text-align: center;
-}
-/*PopUpEnd*/
-
-/*PopUp Register*/
-.kursus , .murid {
-  text-align: left;
-  align-content: center;
-  font-family: 'Poppins',sans-serif;
-  font-size: 14px;
-  color: white;
-  margin: 5px;
-  text-decoration: none;
-  -webkit-transition: background 0.3s ease;
-  -moz-transition: background 0.3s ease;
-  -ms-transition: background 0.3s ease;
-  -o-transition: background 0.3s ease;
-  transition: background 0.3s ease;
-}
-.kursus {
-  background: rgba(71, 186, 255, 0.8);
-}
-.kursus:hover {
-  background: rgba(71, 186, 255, 1);
-  text-decoration: none;
-  text-decoration-line: none;
-}
-.murid {
-  background: rgba(71, 186, 255, 0.8);
-}
-.murid:hover {
-  background: rgba(71, 186, 255, 1);
-  text-decoration: none;
-  text-decoration-line: none;
-}
-/*PopUp Register End*/
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -254,13 +143,14 @@ margin-bottom:5px;
 .carousel {
   height: 500px;
   margin-bottom: 60px;
+  margin-top: 50px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
 }
 .carousel-caption p {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
     font-size: 21px;
     line-height: 1.4;
   }

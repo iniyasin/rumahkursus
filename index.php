@@ -14,7 +14,7 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="asset/pic/banner1.jpg" width="960px" height="500px" alt="First slide">
+          <img class="first-slide" src="asset/gambar/1.jpg" width="960px" height="500px" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>SELAMAT DATANG DI RUMAHKURSUS.COM</h1>
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="asset/pic/banner2.jpg" width="960px" height="500px" alt="Second slide">
+          <img class="second-slide" src="asset/gambar/2.jpeg" width="960px" height="500px" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>TEMUKAN KENYAMANAN DALAM BERKURSUS</h1>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="asset/pic/banner3.jpg" width="960px" height="500px" alt="Third slide">
+          <img class="third-slide" src="asset/gambar/3.jpg" width="960px" height="500px" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>BANYAK KATEGORI TERSEDIA</h1>
