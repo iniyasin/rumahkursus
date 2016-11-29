@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="asset/css/owlcarousel/owl.theme.css">
     <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.eot">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
@@ -25,7 +25,7 @@
   </head>
   <body class="back">
     <!--Ini Bagian Header-->
-    <nav class="navbar navbar-fixed-top" bgcolor= "#000033">
+    <nav class="navbar navbar-fixed-top">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

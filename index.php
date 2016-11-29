@@ -19,7 +19,7 @@
             <div class="carousel-caption">
               <h1>SELAMAT DATANG DI RUMAHKURSUS.COM</h1>
               <p>Banyak Sekali Tempat Kursus Menanti Anda!</p>
-              <p><a class="btn btn-lg btn-primary" href="asset/login.html" role="button">Masuk</a></p>
+              <p><a class="button" href="asset/login.html" role="button"><span>Masuk</span></a></p>
             </div>
           </div>
         </div>
@@ -29,7 +29,7 @@
             <div class="carousel-caption">
               <h1>TEMUKAN KENYAMANAN DALAM BERKURSUS</h1>
               <p>Ingin Kursus Tapi Ga Mau Keluar Rumah? Disi Tempatnya!</p>
-              <p><a class="btn btn-lg btn-primary" href="bantuan.html" role="button">Lebih Lanjut</a></p>
+              <p><a class="button" href="bantuan.html" role="button"><span>Lebih Lanjut</span></a></p>
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@
             <div class="carousel-caption">
               <h1>BANYAK KATEGORI TERSEDIA</h1>
               <p>Banyaknya Kategori Dan Tempat Kursus Membuat Anda Lebih Leluasa Dalam Mengembangkan Bakat</p>
-              <p><a class="btn btn-lg btn-primary" href="asset/kategori.html" role="button">Lihat Galeri</a></p>
+              <p><a class="button" href="asset/kategori.html" role="button"><span>Lihat Galeri</span></a></p>
             </div>
           </div>
         </div>
