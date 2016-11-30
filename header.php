@@ -6,8 +6,6 @@
     <title>RUMAHKURSUS</title>
     <!--Style CSS yang Digunakan Website Ini-->
     <link rel="stylesheet" href="asset/css/style.css">
-    <!--Plugin PopUp Menggunakan JQuery-->
-    <link rel="stylesheet" href="asset/css/avgrund.css">
     <!--Framework CSS Bootstrap untuk Memperindah Tampilan-->
     <link rel="stylesheet" href="asset/css/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="asset/css/bootstrap/css/bootstrap-theme.min.css">
@@ -18,14 +16,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
     <script src="asset/js/owlslider.js"></script>
-    <script src="asset/js/jquery.avgrund.js"></script>
   </head>
   <body class="back">
     <!--Ini Bagian Header-->
-    <nav class="navbar navbar-fixed-top">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

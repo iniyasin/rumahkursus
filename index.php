@@ -19,7 +19,7 @@
             <div class="carousel-caption">
               <h1>SELAMAT DATANG DI RUMAHKURSUS.COM</h1>
               <p>Banyak Sekali Tempat Kursus Menanti Anda!</p>
-              <p><a class="button" href="asset/login.html" role="button"><span>Masuk</span></a></p>
+              <p><a class="button" href="login.php" role="button"><span>Masuk</span></a></p>
             </div>
           </div>
         </div>
