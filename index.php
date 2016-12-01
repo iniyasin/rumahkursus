@@ -102,7 +102,9 @@
         <h3>Siapa Saja Yang Mengajari?</h3>
         <div class="fadeIn">
             <div class="col-md-6 wow fadeInLeftBig">
-                <p class="table table-hover">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras lacinia libero at fermentum congue. Quisque fermentum tortor vel tellus laoreet dignissim in eu nisi. Maecenas bibendum gravida mi quis facilisis. Aenean ullamcorper tristique sodales. Duis tempor tincidunt arcu eget convallis. Sed ullamcorper, neque et fermentum malesuada, purus sem facilisis nunc, eget tincidunt metus augue scelerisque libero. Quisque interdum ultricies venenatis. Maecenas dui urna, malesuada eget nunc iaculis, egestas facilisis nibh. Curabitur vitae tristique arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse dapibus mollis enim sed blandit. Nunc vitae finibus augue. Nulla sit amet viverra lectus, ac semper risus. Nullam vel metus eu ante iaculis iaculis iaculis non justo.</p>
+                <p class="table table-hover">Ketika Anda berniat untuk mempelajari suatu hal, sosok guru memang sangat diperlukan. Semakin baik kemampuan guru yang mengajar maka semakin baik pula hasil yang didapat oleh orang yang mempelajarinya.
+                <br><br>
+                Di rumahkursus.com Anda akan dibimbing oleh orang-orang yang terbaik di bidangnya, baik dari segi kemampuan maupun pengalaman. Kami sangat memperhatikan kualitas setiap pengajar dan kami selalu berkomitmen untuk memberikan yang terbaik untuk Anda.</p>
             </div>
             
             <div class="col-md-6 pull-right wow fadeInRightBig">
