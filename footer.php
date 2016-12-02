@@ -1,5 +1,5 @@
     <!--Footer-->
-    <div class="panel panel-default">
+    <div class="footer">
             <div class="panel-body">
                 <div class="col-sm-4">
                     <ul>

@@ -19,6 +19,12 @@
     <script src="asset/js/bootstrap.min.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
     <script src="asset/js/owlslider.js"></script>
+	<style>
+	
+.carousel-control.left,.carousel-control.right {
+	background:none;
+}
+	</style>
   </head>
   <body class="back">
     <!--Ini Bagian Header-->
