@@ -246,6 +246,60 @@ li.dropdown {
 }
 /*--Pengenalan End--*/
 
+/*--Halaman Login--*/
+.nav-tabs {
+    margin-bottom: 10px;
+}
+.sign-with {
+    padding: 20px;
+}
+div#OR {
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    font-size: 11px;
+    float: right;
+    position: absolute;
+    right: -16px;
+    top: 40%;
+    z-index: 1;
+}
+.tab-content {
+	margin-top: 5px;
+}
+.btn-group-justified a{
+	color: #fff;
+	margin: 10px;
+}
+.btn-primary :after{
+	content: "";
+	position: absolute;
+	top: -3px;
+	left: 30%;
+	width: 1px;
+	height: 36px;
+	background: #ccc;
+	background: rgba(255, 255, 255, 0.3);
+	
+}
+.fa-facebook{
+	margin-right: 20%;
+}
+.btn-danger :after{
+	content: "";
+	position: absolute;
+	top: -3px;
+	left: 35%;
+	width: 1px;
+	height: 36px;
+	background: #ccc;
+	background: rgba(255, 255, 255, 0.3);	
+}
+.fa-google-plus{
+	margin-right: 20%;
+}
+/*--Login Selesai--*/
+
 /*--Siapa Yang Mengajari--*/
 .fadeIn{
   position:relative;
