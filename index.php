@@ -118,86 +118,47 @@
     <div class="container">
       <h3>Tempat Kursus Rekomendasi</h3>
       <div id="owl-slide" class="owl-carousel owl-theme">
-          <div class="cat-item">
-            <a href="#" style="text-decoration: none;color: grey;">
-              <div class="item">
-                <img src="asset/pic/logo1.png" alt="Owl Image">
-                  <div class="cap-item">
-					<hr>
-						<table class="table table-hover">
-							<p align = "left">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-						</table>
-						<input type="button" class="btn btn-success" value="Masuk Kelas Ini"></input>
-				  </div>
-               </div>
-            </a>  
-       </div>
+        <div class="hovereffect">
+			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
+			<div class="overlay">
+				<h2>Hover effect 1</h2>
+				<a class="info" href="#">link here</a>
+			</div>
+		</div>
 
-      <div class="cat-item">
-            <a href="#" style="text-decoration: none;color: grey;">
-              <div class="item">
-                <img src="asset/pic/logo2.png" alt="Owl Image">
-                  <div class="cap-item">
-					<hr>
-						<table class="table table-hover">
-							<p align = "left">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-						</table>
-						<input type="button" class="btn btn-success" value="Masuk Kelas Ini"></input>
-				  </div>
-              </div>
-            </a>  
-      </div>
-
-      <div class="cat-item">
-            <a href="#" style="text-decoration: none;color: grey;">
-              <div class="item">
-                <img src="asset/pic/logo3.jpg" alt="Owl Image">
-                  <div class="cap-item">
-					<hr>
-						<table class="table table-hover">
-							<p align = "left">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-						</table>
-						<input type="button" class="btn btn-success" value="Masuk Kelas Ini"></input>
-				  </div>
-              </div>
-            </a>  
-      </div>
-
-      <div class="cat-item">
-            <a href="#" style="text-decoration: none;color: grey;">
-              <div class="item">
-                <img src="asset/pic/logo4.jpg" alt="Owl Image">
-                  <div class="cap-item">
-					<hr>
-						<table class="table table-hover">
-							<p align = "left">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-						</table>
-						<input type="button" class="btn btn-success" value="Masuk Kelas Ini"></input>
-				  </div>
-              </div>
-            </a>  
-      </div>
-
-      <div class="cat-item">
-            <a href="#" style="text-decoration: none;color: grey;">
-              <div class="item">
-                <img src="asset/pic/logo.jpg" alt="Owl Image">
-                  <div class="cap-item">
-					<hr>
-						<table class="table table-hover">
-							<p align = "left">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
-						</table>
-						<input type="button" class="btn btn-success" value="Masuk Kelas Ini"></input>
-				  </div>
-              </div>
-            </a>  
-      </div>
-    </div>
+        <div class="hovereffect">
+			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
+			<div class="overlay">
+				<h2>Hover effect 1</h2>
+				<a class="info" href="#">link here</a>
+			</div>
+		</div>
+        
+        <div class="hovereffect">
+			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
+			<div class="overlay">
+				<h2>Hover effect 1</h2>
+				<a class="info" href="#">link here</a>
+			</div>
+		</div>
+		
+        <div class="hovereffect">
+			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
+			<div class="overlay">
+				<h2>Hover effect 1</h2>
+				<a class="info" href="#">link here</a>
+			</div>
+		</div>
+		
+        <div class="hovereffect">
+			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
+			<div class="overlay">
+				<h2>Hover effect 1</h2>
+				<a class="info" href="#">link here</a>
+			</div>
+		</div>
+	</div>
+		
     <div class="container">
       <div class="list">
         <a href="asset/kategori.html">Lihat Semua List</a>
