@@ -1,15 +1,4 @@
-<html>
-	<head>
-		<title>RUMAHKURSUS</title>	
-		<link rel="stylesheet" href="asset/css/style.css">
-		<link rel="stylesheet" href="asset/css/bootstrap/css/bootstrap.css">
-		<link rel="stylesheet" href="asset/css/bootstrap/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="asset/css/bootstrap-social.css">
-		<link rel="stylesheet" href="asset/css/font-awesome/css/font-awesome.min.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script src="asset/js/bootstrap.min.js"></script>
-	</head>
-	<body>
+<?php include("header-login.php"); ?>
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -34,9 +23,9 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleInputPassword1" class="col-sm-2 control-label">Password</label>
+                                    <label for="password" class="col-sm-2 control-label">Password</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
                                     </div>
                                 </div>
                                 <div class="row">
@@ -64,15 +53,49 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="mobile" class="col-sm-2 control-label">Handphone</label>
+                                    <label for="handphone" class="col-sm-2 control-label">Handphone</label>
                                     <div class="col-sm-10">
-                                        <input type="email" class="form-control" id="mobile" placeholder="Handphone" />
+                                        <input type="text" class="form-control" id="handphone" placeholder="Handphone" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="password" class="col-sm-2 control-label">Password</label>
                                     <div class="col-sm-10">
                                         <input type="password" class="form-control" id="password" placeholder="Password" />
+                                    </div>
+                                </div>
+																<div class="form-group">
+                                    <label for="lahir" class="col-sm-2 control-label">Tanggal Lahir</label>
+                                    <div class="col-sm-10">
+                                        <form id="ttl" name="ttl" action="">
+																					<select name="tanggal">
+																						<option value="">Tanggal</option>
+																						<?php for ($tanggal=1; $tanggal < 31; $tanggal++) { ?>
+																							<option value="<?php echo $tanggal; ?>">
+																								<?php echo $tanggal; ?>
+																							</option>
+																					<?php	} ?>
+																					</select>
+																					<select name="bulan">
+																						<option value="">Bulan</option>
+																						<?php
+																							$namabulan=array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember" );
+																						?>
+																						<?php for ($bulan=1; $bulan <= 12 ; $bulan++) { ?>
+																							<option value="<?php echo $bulan; ?>">
+																								<?php echo $namabulan[$bulan-1]; ?>
+																							</option>
+																					<?php	} ?>
+																					</select>
+																					<select name="tahun">
+																						<option value="">Tahun</option>
+																						<?php for ($tahun=2017; $tahun >= 1950; $tahun--) { ?>
+																								<option value="<?php echo $tahun; ?>">
+																									<?php echo $tahun; ?>
+																								</option>
+																						<?php } ?>
+																					</select>
+																				</form>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -86,24 +109,9 @@
                                 </form>
                             </div>
                         </div>
-                        <div id="OR" class="hidden-xs">ATAU</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row text-center sign-with">
-                            <div class="col-md-12">
-                                <h3>Masuk</h3>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="btn-group btn-group-justified">
-                                    <a href="#" class="btn btn-primary"><i class="fa fa-facebook"></i> Facebook</a> 
-                                    <a href="#" class="btn btn-danger"><i class="fa fa-google-plus"></i> Google</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-	</body>
-</html>
+		<?php include 'footer.php'; ?>
