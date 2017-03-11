@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0" maximum-scale=1, user-scalable="no">
     <title>RUMAHKURSUS</title>
     <!--Style CSS yang Digunakan Website Ini-->
+<<<<<<< HEAD
     <link rel="stylesheet" href="asset/css/style-user.css">
     <link rel="stylesheet" href="asset/css/footer.css">
+=======
+    <link rel="stylesheet" href="asset/css/style.css">
+>>>>>>> ab634f464f82897d06f29bc953904c43210dce87
     <!--Framework CSS Bootstrap untuk Memperindah Tampilan-->
     <link rel="stylesheet" href="asset/css/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="asset/css/bootstrap/bootstrap-theme.min.css">

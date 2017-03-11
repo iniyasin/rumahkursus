@@ -6,7 +6,10 @@
       <title>RUMAHKURSUS</title>
       <!--Style CSS yang Digunakan Website Ini-->
       <link rel="stylesheet" href="asset/css/style.css">
+<<<<<<< HEAD
       <link rel="stylesheet" href="asset/css/footer.css">
+=======
+>>>>>>> ab634f464f82897d06f29bc953904c43210dce87
       <!--Framework CSS Bootstrap untuk Memperindah Tampilan-->
       <link rel="stylesheet" href="asset/css/bootstrap/bootstrap.css">
       <link rel="stylesheet" href="asset/css/bootstrap/bootstrap-theme.min.css">

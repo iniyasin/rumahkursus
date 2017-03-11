@@ -10,7 +10,11 @@
   /*--Navbar--*/
 
   .back {
+<<<<<<< HEAD
   	background-color: white ;
+=======
+  	background-color: #effbfb;
+>>>>>>> ab634f464f82897d06f29bc953904c43210dce87
   }
   .navbar-nav a{
   	color: white;
@@ -323,6 +327,7 @@
   /*--Daftar--*/
   .daftar{
     background-color: #b3ecec;
+<<<<<<< HEAD
     width: 100%;
     height: 200px;
   }
@@ -347,6 +352,32 @@
   /*--Footer--*/
   .footer{
     width: 100%;
+=======
+    width: 100%;
+    height: 200px;
+  }
+  .caption-daftar h4{
+    margin: 10px 0 20px 0;
+    font-family: 'Hammersmith One',sans-serif;
+    font-size: 20px;
+  }
+  .caption-daftar p{
+    text-align: left;
+    font-family: 'Raleway',sans-serif;
+    margin: 0 0 15px 0;
+  }
+  .caption-daftar a{
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid black;
+  }
+  /*--Daftar End--*/
+
+  /*--Footer--*/
+  .footer{
+    width: 100%;
+>>>>>>> ab634f464f82897d06f29bc953904c43210dce87
   }
   .panel-body{
     background-color: #89ecda;
@@ -465,6 +496,7 @@
   /*--Form Login & Register End--*/
 
   /*--User--*/
+<<<<<<< HEAD
   .main-user{
     width: 1000px;
     height: 1000px;
@@ -475,4 +507,7 @@
     height: 100%;
     background-color: grey;
   }
+=======
+
+>>>>>>> ab634f464f82897d06f29bc953904c43210dce87
   /*--User End--*/
