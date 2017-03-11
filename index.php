@@ -1,172 +1,342 @@
-<!--Bagian Header-->
-	<?php include("header.php"); ?>
+		<!--Bagian Header-->
+			<?php include("header.php"); ?>
 
-    <!--Ini Bagian Banner-->
+			<!--Ini Bagian Banner-->
 
-     <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="first-slide" src="asset/gambar/1.jpg" width="960px" height="500px" alt="First slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>SELAMAT DATANG DI RUMAHKURSUS.COM</h1>
-              <p>Banyak Sekali Tempat Kursus Menanti Anda!</p>
-              <p><a class="button" href="login.php" role="button"><span>Masuk</span></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="asset/gambar/2.jpeg" width="960px" height="500px" alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>TEMUKAN KENYAMANAN DALAM BERKURSUS</h1>
-              <p>Ingin Kursus Tapi Ga Mau Keluar Rumah? Disi Tempatnya!</p>
-              <p><a class="button" href="bantuan.html" role="button"><span>Lebih Lanjut</span></a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="asset/gambar/3.jpg" width="960px" height="500px" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>BANYAK KATEGORI TERSEDIA</h1>
-              <p>Banyaknya Kategori Dan Tempat Kursus Membuat Anda Lebih Leluasa Dalam Mengembangkan Bakat</p>
-              <p><a class="button" href="asset/kategori.html" role="button"><span>Lihat Galeri</span></a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+			<!-- Carousel
+			================================================== -->
 
-    <!-- /.carousel -->
-    <!--Banner Selesai-->
+			<div id="wrapper-banner">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+				<img class="first-slide" src="asset/gambar/1.jpg" width="960px" height="500px" alt="First slide">
+				<div class="container">
+					<div class="carousel-caption">
+					<h3>Belajar</h3>
+					<p>Ayo pelajari hal-hal yang kamu suka,kembangkan hobimu disini.</p>
+					<p><a class="button" href="login.php" role="button"><span>Daftar</span></a></p>
+					</div>
+				</div>
+				</div>
+				<div class="item">
+				<img class="second-slide" src="asset/gambar/2.jpeg" width="960px" height="500px" alt="Second slide">
+				<div class="container">
+					<div class="carousel-caption">
+					<h3>Pengajar</h3>
+					<p>Sebarkan ilmu yang kamu punya agar semakin banyak orang yang tertarik pada hobimu.</p>
+					<p><a class="button" href="bantuan.html" role="button"><span>Buat Kelasmu</span></a></p>
+					</div>
+				</div>
+				</div>
+				<div class="item">
+				<img class="third-slide" src="asset/gambar/3.jpg" width="960px" height="500px" alt="Third slide">
+				<div class="container">
+					<div class="carousel-caption">
+					<h3>Iklan</h3>
+					<p>Daftarkan kelas offline secara gratis disini agar semua orang tau dimana merekea bisa belajar secara langsung.</p>
+					<p><a class="button" href="asset/kategori.html" role="button"><span>Iklan Gratis</span></a></p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+			</div>
+				</div>
+				<hr>
+			<!-- /.carousel -->
+			<!--Banner Selesai-->
 
-    <!--Bagian Pengenalan-->
-    
-<div class="container">
-<h1><b>Kenapa Harus RumahKursus?</b></h1>
-<div class="row">
-  <div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="asset/pic/why.jpg" class="img-rounded" alt="Sub Kategori">
-      <div class="caption">
-        <h2>Lebih Mudah</h2>
-        <p>Anda bisa lebih mudah dalam mendapatkan tempat kursus yang anda inginkan!.</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="asset/pic/why.jpg" class="img-rounded" alt="Sub Kategori">
-      <div class="caption">
-        <h2>Lebih Nyaman</h2>
-        <p>Dengan sistem pembayaran yang kami buat,maka anda tidak perlu khawatir penipuan lagi.</p>
-      </div>
-    </div>
-  </div>
+			<!--Alasan-->
+			<div class="container">
+				<div class="alasan">
+				<div class="row">
+					<h2>Kenapa Harus RumahKursus?</h2>
+					<div class="col-md-4">
+						<img class="img-circle" src="asset/icon/people.png" alt="Mudah">
+						<h3>Mudah</h3>
+					</div>
 
-  <div class="col-sm-4">
-    <div class="thumbnail">
-      <img src="asset/pic/why.jpg" class="img-rounded" alt="Sub Kategori">
-      <div class="caption">
-        <h2>Lebih Terjamin</h2>
-        <p>Setelah menyelesaikan kursus yang diikuti,maka anda berhak mendapat sertifikat yang disahkan oleh pihak pengajar.</p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-    <hr>
-    <!--Pengenalan Selesai-->
+					<div class="col-md-4">
+						<img class="img-circle" src="asset/icon/money.png" alt="Mudah">
+						<h3>Murah</h3>
+					</div>
 
-    <!--Siapa Yang Mengajari-->
-    <div class="container">
-      <div class="list-bawah"></div>
-        <h3>Siapa Saja Yang Mengajari?</h3>
-        <div class="fadeIn">
-            <div class="col-md-6 wow fadeInLeftBig">
-                <p class="table table-hover">Ketika Anda berniat untuk mempelajari suatu hal, sosok guru memang sangat diperlukan. Semakin baik kemampuan guru yang mengajar maka semakin baik pula hasil yang didapat oleh orang yang mempelajarinya.
-                <br><br>
-                Di rumahkursus.com Anda akan dibimbing oleh orang-orang yang terbaik di bidangnya, baik dari segi kemampuan maupun pengalaman. Kami sangat memperhatikan kualitas setiap pengajar dan kami selalu berkomitmen untuk memberikan yang terbaik untuk Anda.</p>
-            </div>
-            
-            <div class="col-md-6 pull-right wow fadeInRightBig">
-                <img class="fadeIn" src="./asset/pic/avatar.jpg" width="400px" height="350px">
-            </div>
-        </div>
-    </div>
-    <hr>
-    <!--Siapa Yang Mengajari Selesai-->
+					<div class="col-md-4">
+						<img class="img-circle" src="asset/icon/coins.png" alt="Mudah">
+						<h3>Menguntungkan</h3>
+					</div>
+				</div>
+			</div>
+			</div>
+				<hr>
+				<!--Alasan End-->
 
-    <!--Tempat Kursus Rekomendasi-->
-    <div class="container">
-      <h3>Tempat Kursus Rekomendasi</h3>
-      <div id="owl-slide" class="owl-carousel owl-theme">
-        <div class="hovereffect">
-			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
-			<div class="overlay">
-				<h2>Hover effect 1</h2>
-				<a class="info" href="#">link here</a>
+			<!--Bagian Pengenalan-->
+			<div class="container">
+				<div class="row">
+				<div class="col-md-4 pengenalan">
+					<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-info">
+						Lebih lanjut tentang RumahKursus
+					</a>
+					<a href="#" class="list-group-item">Apa itu Kursusan?</a>
+					<a href="#" class="list-group-item">Bagaimana cara kerja Kursusan?</a>
+					<a href="#" class="list-group-item list-group-item-info">
+							Pengguna baru?
+						</a>
+					<a href="#" class="list-group-item">Kenapa harus Kursusan?</a>
+					<a href="#" class="list-group-item">Apa saja keahlian yang dibutuhkan?</a>
+					<a href="#" class="list-group-item">Persiapkan diri anda!</a>
+					</div>
+					</div>
+
+					<div class="col-md-8">
+						<h4>Kategori</h4>
+						<div class="row">
+							<div class="col-lg-4 list-group">
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Musik</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Keahlian</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Komputer</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Programming</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Jaringan</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Bimbel</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Renang</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Sepak Bola</a>
+							</div>
+							<div class="col-lg-4 list-group">
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Musik</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Keahlian</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Komputer</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Programming</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Jaringan</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Bimbel</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Renang</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Sepak Bola</a>
+							</div>
+							<div class="col-lg-4 list-group">
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Musik</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Keahlian</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Komputer</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Programming</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Jaringan</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Bimbel</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Renang</a>
+								<a href="#" class="list-group-item"><span class="glyphicon glyphicon-menu-hamburger"></span>      Sepak Bola</a>
+							</div>
+							</div>
+						</div>
+				</div>
+			<hr>
+			<!--Kategori Selesai-->
+
+			<!--Tempat Kursus Rekomendasi-->
+
+					<div class="main-web">
+					<div id="main-wrapper">
+				<div class="well">
+					<div class="container-fluid">
+					<h4>Ayo Belajar!</h4>
+					<div class="row">
+					<div class="col-md-2 ayo">
+						<div class="thumbnail">
+						<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+						<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+							</div>
+						</div>
+						</div>
+						<div class="col-md-2">
+						<div class="thumbnail">
+						<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+						<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+							</div>
+						</div>
+						</div>
+						<div class="col-md-2">
+						<div class="thumbnail">
+						<img src="asset/gambar/logo.jpg" alt="...">
+						<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+							</div>
+						</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="thumbnail">
+								<a href="#"><img src="asset/gambar/logo.jpg" alt="..."></a>
+								<div class="caption">
+									<p class="judul">Judul</p>
+									<p class="pembuat">Pembuat</p>
+									<p class="harga">Harga</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<p class="more"><a class="button" href="bantuan.html" role="button"><span>Lihat Semuanya</span></a></p>
+				</div>
+		</div>
+		<hr>
+			<!--Tempat Kursus Populer Selesai-->
+
+
+
+			<!--Partnership-->
+		<div class="well">
+			<div class="container-fluid">
+				<div class="partnership">
+						<h4>Partnertship</h4>
+							<div class="col-sm-4">
+								<div class="tabel">
+									<img src="http://placehold.it/500x200" alt="Responsive Image" class="img-responsive img-rounded">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="tabel">
+									<img src="http://placehold.it/500x200" alt="Responsive Image" class="img-responsive img-rounded">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="tabel">
+									<img src="http://placehold.it/500x200" alt="Responsive Image" class="img-responsive img-rounded">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="tabel">
+									<img src="http://placehold.it/500x200" alt="Responsive Image" class="img-responsive img-rounded">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="tabel">
+									<img src="http://placehold.it/500x200" alt="Responsive Image" class="img-responsive img-rounded">
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="tabel">
+									<img src="http://placehold.it/500x200" alt="Responsive Image" class="img-responsive img-rounded">
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+		<!--Partnership End-->
+
+		<!--Ayo daftar-->
+		<div class="well well-sm">
+			<div class="daftar">
+					<div class="container-fluid">
+							<div class="caption-daftar">
+								<h4>Ayo Daftar!</h4>
+								<p>Bergabunglah bersama dengan menjadi pengajar ataupun pelajar disini,lau rasakan banyak keuntungannya!<p>
+								<p><a class="button" href="login.php" role="button"><span>Daftar</span></a></p>
+							</div>
+						</div>
 			</div>
 		</div>
-
-        <div class="hovereffect">
-			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
-			<div class="overlay">
-				<h2>Hover effect 1</h2>
-				<a class="info" href="#">link here</a>
-			</div>
+		<hr>
 		</div>
-        
-        <div class="hovereffect">
-			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
-			<div class="overlay">
-				<h2>Hover effect 1</h2>
-				<a class="info" href="#">link here</a>
-			</div>
-		</div>
-		
-        <div class="hovereffect">
-			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
-			<div class="overlay">
-				<h2>Hover effect 1</h2>
-				<a class="info" href="#">link here</a>
-			</div>
-		</div>
-		
-        <div class="hovereffect">
-			<img class="img-responsive" src="asset/gambar/logo.jpg" alt="">
-			<div class="overlay">
-				<h2>Hover effect 1</h2>
-				<a class="info" href="#">link here</a>
-			</div>
+		<!--Ayo daftar end-->
 		</div>
 	</div>
-		
-    <div class="container">
-      <div class="list">
-        <a href="asset/kategori.html">Lihat Semua List</a>
-      </div>
-      </div>
-    </div>
-    <!--Tempat Kursus Rekomendasi Selesai-->
-
-	<!--Bagian Footer-->
-	<?php include("footer.php"); ?>
-
+		<!--Bagian Footer-->
+			<?php include("footer.php"); ?>
